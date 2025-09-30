@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+.card-body {
+  padding: 20px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+    body {
+      font-family:Arial;
+      margin: 0;
+      padding: 0;
+      background: purple;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      display: flex;
+      gap: 20px;
+      padding: 60px;
+      max-width: 1200px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      flex: 1 1 30%;
+      min-width: 280px;
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    
+    .card-title {
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+      color:black;
+    }
+
+    .card-text {
+      font-size: 20px;
+      color: black;
+      margin-bottom: 20px;
+    }
+
+    button {
+      display: inline-block;
+      padding: 10px 15px;
+      background-color:red;
+      color: white;
+      width: fit-content;
+      justify-content: center;
+      border-radius: 25px;
+      font-weight: bold;}
+      
+      .card-body button {
+  margin-top: auto;
+}
+
+    
+
+
+    button:hover {
+      background-color: darkolivegreen;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="card" style="background-color: orange;">
+    <img src="kung po.png" alt="Card Image">
+    <div class="card-body">
+      <h3 >Card One</h3>
+      <p >Kung Fu Panda is a animated film from DreamWorks Animation that tells the story of Po, a clumsy but kind-hearted panda who dreams of becoming a kung fu master. Despite his awkwardness, he's unexpectedly chosen as the Dragon Warrior to defend the Valley of Peace from powerful enemies. With the help of his mentors — Master Shifu and the Furious Five — Po discovers that true strength comes from believing in yourself. The series blends action, comedy, and heartwarming storytelling,</p>
+      <button>Learn More</button>
+    </div>
+  </div>
+
+  <div class="card" style="background-color: magenta;">
+    <img src="ice-ag.png">
+    <div class="card-body">
+      <h3>Card Two</h3>
+      <p>Ice Age is a 2002 animated adventure-comedy film a group of prehistoric animals — Manny (a woolly mammoth), Sid (a clumsy sloth), Diego (a saber-toothed tiger), and later additions like Ellie, Crash & Eddie, Scrat,and Buck — as they navigate the challenges of a changing world. its humor, emotional storytelling, and family-friendly adventure, the franchise appeals to audiences of all ages.</p>
+    <button>Learn More</button>
+    </div>
+  </div>
+
+  <div class="card" style="background-color: blue;">
+    <img src="how-to-train-your-dragon12.png" >
+    <div class="card-body">
+      <h3 class="card-title">Card Three</h3>
+      <p class="card-text">How to Train Your Dragon is a beloved animated film that tells the story of Hiccup who befriends a rare dragon Toothless,it's a heartwarming tale of courage with stunning animation, emotional depth, and epic adventures.
+</p>
+      <button>Learn More</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
